@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/taskName"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="left"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <Button
+        android:id="@+id/removeItem"
+        android:layout_width="wrap_content"
+        android:text="@string/removeButtonText"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:onClick="removeListItemOnClickHandler"/>
+
+</LinearLayout>

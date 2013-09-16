@@ -3,8 +3,8 @@
 
     <string name="app_name">Navigation Demo</string>
     <string name="action_settings">Settings</string>
-    <string name="activity1">Click the button to go to activity 2.</string>
-    <string name="activity2">Click the button to go back to activity 1.</string>
-    <string name="button">Navigate</string>
+    <string name="buttonSubmit">Submit</string>
+    <string name="task_message">Enter your task</string>
+    <string name="removeButtonText">Remove</string>
 
 </resources>
